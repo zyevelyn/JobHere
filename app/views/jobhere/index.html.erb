@@ -1,0 +1,16 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+<h1>Your Pragmatic Catalog</h1>
+<% @jobs.each do |job| %>
+<div class="entry">
+<%= image_tag(job.image_url) %>
+<h3><%= job.title %></h3>
+<%=sanitize job.description %>
+<h5>Position available now</h5>
+<div class="headcount_line">
+ <span class="headcount"><%= sprintf("%d", job.headcount )%></span>
+ <%= button_to 'Apply', line_items_path(:job_id => job)%>
+</div>
+</div>
+<% end %>

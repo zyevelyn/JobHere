@@ -1,0 +1,6 @@
+<h1>You want to apply to</h1>
+<ul>
+<% for item in @apply.line_items %>
+    <li><%= item.job.title %></li>
+<% end %>
+</ul>

@@ -1,0 +1,65 @@
+#banner {
+background: yellow;
+padding-top: 2px;
+padding-bottom: 60px;
+border-bottom: 5px solid;
+font: small-caps 50px/50px "Times New Roman", bold;
+color: green;
+text-align: center;
+}
+#banner img {
+float: left;
+}
+#columns {
+background: #adff2f;
+}
+#main {
+margin-left: 13em;
+padding-top: 3ex;
+padding-left: 5em;
+background: #ffc0cb;
+}
+#side {
+float: left;
+padding-top: 4em;
+padding-left: 1em;
+padding-bottom: 10em;
+width: 12em;
+background: #adff2f;
+}
+
+#side a {
+color: green;
+font: small-caps 35px/35px "Times New Roman", serif;
+line-height: 60px;
+
+}     
+h1 {
+ color: yellow;
+ font: Small-caps 40px "Times New Roman", serif;
+ font-weight: bold;
+ background-color: #db7093;
+ line-height: 40px
+}
+h5 {
+ color: #ff0000;
+ font: Small-caps 15px "Times New Roman";
+ font-weight: bold;
+}
+
+#jobhere .entry form, #jobhere .entry form div
+{
+    display: inline;
+}
+
+table{
+background: #ffd700;
+color:  #000000;
+text-align: left;
+border-top: 5px solid;
+border-bottom: 5px solid;
+font: small-caps 20px/20px "Times New Roman", serif;
+font-weight: bold;
+line-height: 25px;
+}
+

@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  company: MyString
+  title: MyString
+  description: MyText
+  requirement: MyText
+  image_url: MyString
+  headcount: 9.99
+
+two:
+  company: MyString
+  title: MyString
+  description: MyText
+  requirement: MyText
+  image_url: MyString
+  headcount: 9.99

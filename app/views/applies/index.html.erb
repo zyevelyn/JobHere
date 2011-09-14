@@ -1,0 +1,21 @@
+<h1>Listing applies</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @applies.each do |apply| %>
+  <tr>
+    <td><%= link_to 'Show', apply %></td>
+    <td><%= link_to 'Edit', edit_apply_path(apply) %></td>
+    <td><%= link_to 'Destroy', apply, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Apply', new_apply_path %>
